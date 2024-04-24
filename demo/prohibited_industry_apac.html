@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<meta charset="utf-8" />
+	<title>Video Player with Subtitles</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+	<h1>demo</h1>
+    <p>
+        <a href="../index.html">back to homepage</a>
+    </p>
+	<figure id="videoContainer" data-fullscreen="false">
+		<video id="video" height="460" controls preload="metadata">
+			<source src="video/prohibited_industry_apac.mp4" type="video/mp4">
+			<track label="English" kind="subtitles" srclang="en" src="subtitles/prohibited_industry_apac_en.vtt" default>
+			<track label="Spanish" kind="subtitles" srclang="es" src="subtitles/prohibited_industry_apac_es.vtt">
+			<track label="Portuguese" kind="subtitles" srclang="pt" src="subtitles/prohibited_industry_apac_pt.vtt">
+			<track label="Chinese" kind="subtitles" srclang="zh-Hans" src="subtitles/prohibited_industry_apac_zh-CN.vtt">
+			<track label="Czech" kind="subtitles" srclang="cs" src="subtitles/prohibited_industry_apac_cs.vtt">
+			<track label="Thai" kind="subtitles" srclang="th" src="subtitles/prohibited_industry_apac_th.vtt">
+		</video>
+	</figure>
+</body>
+</html>
